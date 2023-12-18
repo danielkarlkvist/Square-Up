@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol RotationObservable: class {
+protocol RotationObservable: AnyObject {
     func addRotationObserver(_ observer: RotationObserver)
     func notifyRotationObservers()
 }

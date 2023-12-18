@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ScoreObservable: class {
+protocol ScoreObservable: AnyObject {
     func addScoreObserver(_ observer: ScoreObserver)
     func notifyScoreObservers()
 }

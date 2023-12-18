@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ScoreObserver: class {
+protocol ScoreObserver: AnyObject {
     func updateScore(to score: Int)
 }

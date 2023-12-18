@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol RotationObserver: class {
+protocol RotationObserver: AnyObject {
     func updateRotation()
 }
